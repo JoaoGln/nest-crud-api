@@ -58,32 +58,46 @@ Execução
 npm run start:dev
 
 # Use a CLI interativa:
+
 npx ts-node cli.ts
+
 Teste as rotas via api.http (com extensão REST Client)
 
 🌐 Endpoints
+
 UFs
+
 POST /uf - Cria uma UF
+
 
 GET /uf - Lista todas UFs
 
+
 GET /uf/:id - Busca UF por ID
+
 
 PATCH /uf/:id - Atualiza UF
 
+
 DELETE /uf/:id - Remove UF
+
 
 Cidades
 POST /cidade - Cria cidade (relacionada a UF)
 
+
 GET /cidade - Lista cidades com UFs
+
 
 Estudantes
 POST /estudante - Cria estudante (relacionado a cidade)
 
+
 GET /estudante - Lista estudantes com cidades e UFs
 
+
 # 📝 Exemplo de Uso
+
 Criando uma UF via CLI:
 
 O que você deseja fazer? Criar UF
