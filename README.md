@@ -20,18 +20,26 @@ API RESTful desenvolvida com NestJS para gerenciamento de unidades federativas (
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (para testes de API)
 
 ## 📦 Estrutura do Projeto
-nest-crud-api/
-├── src/
-│ ├── uf/ # Entidade Unidade Federativa
-│ ├── cidade/ # Entidade Cidade
-│ ├── estudante/ # Entidade Estudante
-│ └── app.module.ts # Configuração principal
-├── cli.ts # Interface CLI interativa
-├── api.http # Coleção de requisições
-├── database.sqlite # Banco de dados SQLite
-└── NOTES.md # Anotações do projeto
 
-Copy
+nest-crud-api/
+
+├── src/
+
+│ ├── uf/ # Entidade Unidade Federativa
+
+│ ├── cidade/ # Entidade Cidade
+
+│ ├── estudante/ # Entidade Estudante
+
+│ └── app.module.ts # Configuração principal
+
+├── cli.ts # Interface CLI interativa
+
+├── api.http # Coleção de requisições
+
+├── database.sqlite # Banco de dados SQLite
+
+└── NOTES.md # Anotações do projeto
 
 ## 🚀 Como Executar
 
