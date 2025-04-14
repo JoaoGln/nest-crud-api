@@ -78,7 +78,7 @@ GET /estudante - Lista estudantes com cidades e UFs
 # 📝 Exemplo de Uso
 Criando uma UF via CLI:
 
-? O que você deseja fazer? Criar UF
-? Nome da UF: São Paulo
-? Sigla (2 letras): SP
+O que você deseja fazer? Criar UF
+Nome da UF: São Paulo
+Sigla (2 letras): SP
 ✅ UF criada: { "id": 1, "nome": "São Paulo", "sigla": "SP" }
